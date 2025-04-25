@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="FluentValidation" Version="11.10.0" />
+		<PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.10.0" />
+		<PackageReference Include="LinqKit.Microsoft.EntityFrameworkCore" Version="8.1.5" />
+		<PackageReference Include="MediatR" Version="12.4.1" />
+		<PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+		<PackageReference Include="Microsoft.AspNetCore.SignalR.Core" Version="1.2.0" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.0" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+		<PackageReference Include="RestSharp" Version="112.1.0" />
+		<PackageReference Include="Throw" Version="1.4.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Folder Include="Trading\Trades\Notifications\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\PreciousMetalsTradingSystem.Domain\PreciousMetalsTradingSystem.Domain.csproj" />
+	</ItemGroup>
+
+</Project>

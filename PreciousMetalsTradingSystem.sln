@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7B7A952D-320A-4A28-A064-7B800BAC7A84}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PreciousMetalsTradingSystem.Domain", "src\PreciousMetalsTradingSystem.Domain\PreciousMetalsTradingSystem.Domain.csproj", "{1B7258CD-30B8-48E1-8F24-9D87D50C607E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PreciousMetalsTradingSystem.Application", "src\PreciousMetalsTradingSystem.Application\PreciousMetalsTradingSystem.Application.csproj", "{CD2D1793-3288-45E2-A20D-0C4194BB38E4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PreciousMetalsTradingSystem.Infrastructure", "src\PreciousMetalsTradingSystem.Infrastructure\PreciousMetalsTradingSystem.Infrastructure.csproj", "{47309435-DE63-4D91-9908-F66F4CF0A32B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PreciousMetalsTradingSystem.WebApi", "src\PreciousMetalsTradingSystem.WebApi\PreciousMetalsTradingSystem.WebApi.csproj", "{3DDBDEA5-52F1-4954-9F92-3EF20712F2A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{91317455-887B-4858-84A0-85A92358EFDD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PreciousMetalsTradingSystem.UnitTests", "tests\PreciousMetalsTradingSystem.UnitTests\PreciousMetalsTradingSystem.UnitTests.csproj", "{B09EA7BA-90A6-4ECD-AD69-77508B66C4D1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PreciousMetalsTradingSystem.ArchitectureTests", "tests\PreciousMetalsTradingSystem.ArchitectureTests\PreciousMetalsTradingSystem.ArchitectureTests.csproj", "{5E269364-1641-4717-BA8B-0C115E6BE589}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PreciousMetalsTradingSystem.IntegrationTests", "tests\PreciousMetalsTradingSystem.IntegrationTests\PreciousMetalsTradingSystem.IntegrationTests.csproj", "{3CB2CA13-E1F1-4A0D-A086-C80BF717E697}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{20AB072B-CFB4-467B-8E11-6F9E9EC3B690}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B7258CD-30B8-48E1-8F24-9D87D50C607E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B7258CD-30B8-48E1-8F24-9D87D50C607E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B7258CD-30B8-48E1-8F24-9D87D50C607E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B7258CD-30B8-48E1-8F24-9D87D50C607E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD2D1793-3288-45E2-A20D-0C4194BB38E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD2D1793-3288-45E2-A20D-0C4194BB38E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD2D1793-3288-45E2-A20D-0C4194BB38E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD2D1793-3288-45E2-A20D-0C4194BB38E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47309435-DE63-4D91-9908-F66F4CF0A32B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47309435-DE63-4D91-9908-F66F4CF0A32B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47309435-DE63-4D91-9908-F66F4CF0A32B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47309435-DE63-4D91-9908-F66F4CF0A32B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DDBDEA5-52F1-4954-9F92-3EF20712F2A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DDBDEA5-52F1-4954-9F92-3EF20712F2A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DDBDEA5-52F1-4954-9F92-3EF20712F2A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DDBDEA5-52F1-4954-9F92-3EF20712F2A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B09EA7BA-90A6-4ECD-AD69-77508B66C4D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B09EA7BA-90A6-4ECD-AD69-77508B66C4D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B09EA7BA-90A6-4ECD-AD69-77508B66C4D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B09EA7BA-90A6-4ECD-AD69-77508B66C4D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E269364-1641-4717-BA8B-0C115E6BE589}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E269364-1641-4717-BA8B-0C115E6BE589}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E269364-1641-4717-BA8B-0C115E6BE589}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E269364-1641-4717-BA8B-0C115E6BE589}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CB2CA13-E1F1-4A0D-A086-C80BF717E697}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CB2CA13-E1F1-4A0D-A086-C80BF717E697}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CB2CA13-E1F1-4A0D-A086-C80BF717E697}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CB2CA13-E1F1-4A0D-A086-C80BF717E697}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1B7258CD-30B8-48E1-8F24-9D87D50C607E} = {7B7A952D-320A-4A28-A064-7B800BAC7A84}
+		{CD2D1793-3288-45E2-A20D-0C4194BB38E4} = {7B7A952D-320A-4A28-A064-7B800BAC7A84}
+		{47309435-DE63-4D91-9908-F66F4CF0A32B} = {7B7A952D-320A-4A28-A064-7B800BAC7A84}
+		{3DDBDEA5-52F1-4954-9F92-3EF20712F2A1} = {7B7A952D-320A-4A28-A064-7B800BAC7A84}
+		{B09EA7BA-90A6-4ECD-AD69-77508B66C4D1} = {91317455-887B-4858-84A0-85A92358EFDD}
+		{5E269364-1641-4717-BA8B-0C115E6BE589} = {91317455-887B-4858-84A0-85A92358EFDD}
+		{3CB2CA13-E1F1-4A0D-A086-C80BF717E697} = {91317455-887B-4858-84A0-85A92358EFDD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45B9DA10-776A-491B-8B65-AC973BCBD916}
+	EndGlobalSection
+EndGlobal

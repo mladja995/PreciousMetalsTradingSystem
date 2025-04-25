@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PreciousMetalsTradingSystem.Domain.Entities.Product">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAQAAAAEAAAAAQAAAAAAAAAAAAAEJAAAAA=</HashCode>
+      <FileName>Entities\Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PreciousMetalsTradingSystem.Domain.Entities.ProductLocation">
+    <Position X="0.5" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EEAAAEAAAAAAAAAAAAAAAAAAAgAAAAAABAABAQAAAAA=</HashCode>
+      <FileName>Entities\ProductLocation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PreciousMetalsTradingSystem.Domain.Entities.ProductLocationPosition">
+    <Position X="3.25" Y="9" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAACAAAAAAAAAIAAABAAAAQAAAAAACIABQAAAAAAAAA=</HashCode>
+      <FileName>Entities\ProductLocationPosition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PreciousMetalsTradingSystem.Domain.Entities.TradeQuote">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAFgAAAiCAAAAAAAAEAAAAAAAAABAAAAAAAACA=</HashCode>
+      <FileName>Entities\TradeQuote.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PreciousMetalsTradingSystem.Domain.Entities.TradeQuoteItem">
+    <Position X="5.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAACAAoACAAAAIAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\TradeQuoteItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PreciousMetalsTradingSystem.Domain.Entities.Trade">
+    <Position X="7" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EAAKAAgAiAQAiAQAACAAAAAAAAAAAAAABQAAAAEAAKg=</HashCode>
+      <FileName>Entities\Trade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PreciousMetalsTradingSystem.Domain.Entities.TradeItem">
+    <Position X="7" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EAACAAIAABAAAIAAAIAAAAAQEAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Entities\TradeItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PreciousMetalsTradingSystem.Domain.Entities.SpotDeferredTrade">
+    <Position X="12" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAiAAAAAAAAAAAAAAAACCAAAAAAAAAgAg=</HashCode>
+      <FileName>Entities\SpotDeferredTrade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PreciousMetalsTradingSystem.Domain.Entities.SpotDeferredTradeItem">
+    <Position X="12" Y="5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAACAAAQAAAAAAAAAAAAAAgAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\SpotDeferredTradeItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PreciousMetalsTradingSystem.Domain.Entities.FinancialTransaction">
+    <Position X="9.5" Y="9" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACACAAAAAAAAAAABgAAASAAAAEAAIAQAAAAAgAAAA=</HashCode>
+      <FileName>Entities\FinancialTransaction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PreciousMetalsTradingSystem.Domain.Entities.FinancialAdjustment">
+    <Position X="9.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAABAAAACAAAAAgAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Entities\FinancialAdjustment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PreciousMetalsTradingSystem.Domain.Entities.HedgingAccount">
+    <Position X="12" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAACAAAAAAAAAQAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\HedgingAccount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PreciousMetalsTradingSystem.Domain.Entities.HedgingItem">
+    <Position X="15.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAABAAAACAAAAAAACAEQAAAAEAAAA=</HashCode>
+      <FileName>Entities\HedgingItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="PreciousMetalsTradingSystem.Domain.Enums.MetalType">
+    <Position X="0.5" Y="5.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\MetalType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PreciousMetalsTradingSystem.Domain.Enums.LocationType">
+    <Position X="0.5" Y="7" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAgAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\LocationType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PreciousMetalsTradingSystem.Domain.Enums.BalanceType">
+    <Position X="9.5" Y="13.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Enums\BalanceType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PreciousMetalsTradingSystem.Domain.Enums.PositionSideType">
+    <Position X="3.25" Y="13.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Enums\PositionSideType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PreciousMetalsTradingSystem.Domain.Enums.TradeQuoteStatusType">
+    <Position X="5.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAYAAAAAA=</HashCode>
+      <FileName>Enums\TradeQuoteStatusType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PreciousMetalsTradingSystem.Domain.Enums.SideType">
+    <Position X="5.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\SideType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PreciousMetalsTradingSystem.Domain.Enums.ActivityType">
+    <Position X="3.25" Y="12.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\ActivityType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PreciousMetalsTradingSystem.Domain.Enums.TransactionSideType">
+    <Position X="9.5" Y="12" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\TransactionSideType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PreciousMetalsTradingSystem.Domain.Enums.HedgingItemSideType">
+    <Position X="15.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\HedgingItemSideType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PreciousMetalsTradingSystem.Domain.Enums.HedgingItemType">
+    <Position X="15.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\HedgingItemType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
